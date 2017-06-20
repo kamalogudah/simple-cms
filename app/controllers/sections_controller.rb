@@ -2,6 +2,7 @@ class SectionsController < ApplicationController
   
   def index
     @sections = Section.sorted
+    @page_title = "All Sections"
   end
 
   def show
