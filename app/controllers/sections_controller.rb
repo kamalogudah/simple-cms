@@ -1,5 +1,5 @@
 class SectionsController < ApplicationController
-  
+   layout 'admin'
   def index
     @sections = Section.sorted
     @page_title = "All Sections"
